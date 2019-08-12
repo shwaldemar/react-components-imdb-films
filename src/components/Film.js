@@ -4,9 +4,13 @@ class Film extends Component {
   render(){
     return(
       <div className='film'>
-        Hi Simon I'm a film.
+        <ul>
+          <li>
+            <p>{this.props.title}</p>
+          </li>
+         </ul>
       </div>
-    )
+    );
   }
 }
 
