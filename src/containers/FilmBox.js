@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import FilmList from '../components/FilmList';
+import Styling from './Styling.css'
 
 class FilmBox extends Component {
     constructor(props){
@@ -37,7 +38,7 @@ class FilmBox extends Component {
 
     render() {
       return (
-           <div className="film-box">
+           <div className="styling">
              <h2>Films Currently Showing</h2>
                <hr/>
                  <FilmList data={this.state.data}/>
